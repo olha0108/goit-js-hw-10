@@ -16,11 +16,11 @@ The back-end returns objects with some properties most of which you do not need.
 
 You only need the following properties:
 
-name.official - full name of the country. 
-capital - capital.  
-population - population. 
-flags.svg - link to flag images. 
-languages - array of languages. 
+name.official - full name of the country.   
+capital - capital.    
+population - population.   
+flags.svg - link to flag images.    
+languages - array of languages.    
 
 ## Search box​
 
