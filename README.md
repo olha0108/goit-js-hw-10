@@ -16,12 +16,13 @@ The back-end returns objects with some properties most of which you do not need.
 
 You only need the following properties:
 
-name.official - full name of the country
-capital - capital
-population - population
-flags.svg - link to flag images
-languages - array of languages
-Search box​
+name.official - full name of the country. 
+capital - capital.  
+population - population. 
+flags.svg - link to flag images. 
+languages - array of languages. 
+
+## Search box​
 
 The user enters the name of the country to search for in the input#search-box text field. HTTP requests are made by typing the country name, that is, on the input event. However, you cannot make a request every time a key is pressed, since many requests will be made at the same time, and they will be executed in an unpredictable order.
 
